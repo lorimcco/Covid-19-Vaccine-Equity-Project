@@ -40,7 +40,7 @@ Vaccinations by continent
 Vaccinations by country income levels
 Countries with low vaccination rates (less than 40%)
 
-####Tableau Features Used:
+#### Tableau Features Used:
 - I created overlapping bar graphs of full and partial vaccination rates by putting both measures in the columns and making a dual axis with the same fixed start and end values.
 - The biggest challenge in this project was the overlapping bar graph showing the full and partial vaccination rates by income level. Unlike the continents, which had aggregated numbers in the original dataset, I had to figure out how to get the vaccination rates for each income group from the most recent vaccination numbers and the population of each country. To make it work, I used calculated fields with level-of-detail calculations (for example, {FIXED[Location]:MAX([People Fully Vaccinated])}).
 - I made a set of countries with vaccination rates less than 40% and used it as a filter to explore countries with low vaccination rates.
@@ -48,15 +48,15 @@ Countries with low vaccination rates (less than 40%)
 
 ## Solutions & Analysis
 
-(Explore the interactive Tableau Story [here](https://public.tableau.com/app/profile/lorien.mccomb/viz/Covid-19VaccineEquity/VaccinesStory).)
+Explore the interactive Tableau Story [here](https://public.tableau.com/app/profile/lorien.mccomb/viz/Covid-19VaccineEquity/VaccinesStory).
 
-###1. Worldwide Vaccinations
+### 1. Worldwide Vaccinations
 
 ![Worldwide Dashboard](vaccine-world.png)
 
 COVID-19 vaccines are being developed and manufactured at an increasing rate. The number of vaccines administered is climbing and has reached over 7 billion worldwide. **However, when we look at the numbers by country, the vaccination rates are startlingly different.** A quick look at the world map coloured by vaccination rates shows that there is a stark disparity in Africa.
 
-###2. Vaccinations by Continent
+### 2. Vaccinations by Continent
 
 ![Continent Dashboard](vaccine-continent.png)
 
@@ -64,7 +64,7 @@ Digging into the vaccination rates by continent, I found that **Africa is laggin
 
 The heat map in the top right tells the story over time: The dark blue sections show when a high rate of new vaccinations occur. North America was the first continent to vaccinate a significant portion of its population, followed by Europe, Asia, South America, and Oceania. The only continent with no dark blue patch on the heat map is Africa, meaning it has had no significant period of vaccinations.
 
-###3. Vaccinations by Country Income Level
+### 3. Vaccinations by Country Income Level
 
 ![Income Dashboard](vaccine-income.png)
 
@@ -74,7 +74,7 @@ Grouping countries by income levels (based on gross national income per capita) 
 
 This dashboard includes interactive features where the user can click on an income group on the bar graph to see the countries on the world map and the scatterplot for each group. To explore, go to the [dashboard](https://public.tableau.com/app/profile/lorien.mccomb/viz/Covid-19VaccineEquity/VaccinesStory) on Tableau Public.
 
-###4. Countries with Low Vaccination Rates
+### 4. Countries with Low Vaccination Rates
 
 ![Low Vaccinations Dashboard](vaccine-under-40.png)
 
