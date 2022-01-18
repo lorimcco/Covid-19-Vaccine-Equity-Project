@@ -35,10 +35,10 @@ In addition to the vaccination information, the original dataset also had data f
 I used Tableau to explore my hypothesis about COVID-19 vaccine inequity. I loaded two datasets into Tableau (the pared-down COVID-19 data and the country income group data) and made a relationship between them on the country code.
 
 I divided my exploratory data analysis into four parts: 
-Worldwide vaccinations
-Vaccinations by continent
-Vaccinations by country income levels
-Countries with low vaccination rates (less than 40%)
+- Worldwide vaccinations
+- Vaccinations by continent
+- Vaccinations by country income levels
+- Countries with low vaccination rates (less than 40%)
 
 #### Tableau Features Used:
 - I created overlapping bar graphs of full and partial vaccination rates by putting both measures in the columns and making a dual axis with the same fixed start and end values.
